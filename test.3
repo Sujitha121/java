@@ -32,3 +32,8 @@ public class BankAccountApp {
 	BankAccount account = new BankAccount(name);
         int choice;
         double amount;
+	do {
+            System.out.println("\n1. Deposit\n2. Withdraw\n3. Display Balance\n4. Exit");
+            System.out.print("Enter your choice: ");
+            choice = sc.nextInt();
+
