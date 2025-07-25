@@ -17,3 +17,11 @@ public void deposit(double amount) {
             System.out.println("Withdrawn: ₹" + amount);
         } else {
             System.out.println("Insufficient balance!");
+	    }
+    }
+
+    public void display() {
+        System.out.println("\nAccount Holder: " + name);
+        System.out.println("Current Balance: ₹" + balance);
+    }
+}
